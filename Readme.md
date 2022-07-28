@@ -14,8 +14,8 @@
 
 - Gained knowledge on displaying items in an inline block.
 
-### Time Taken:
-    2 hours
+### Time Taken: 
+2-hours
 
 ![button](https://img.shields.io/badge/-Live--Link-bluvoilet)
 [Click here](http://127.0.0.1:5500/index.html)
