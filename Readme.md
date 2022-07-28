@@ -17,6 +17,8 @@
 ### Time Taken: 
 1.5 hours
 
-[Live-Link](http://127.0.0.1:5500/index.html)
+![Badge](https://img.shields.io/badge/-Below%20is%20the%20Live--Link-informational)
+
+[Live-Link](https://project2-htmlcss.netlify.app/)
 
 
