@@ -1,15 +1,17 @@
 * {
   margin: 0;
   padding: 0;
-
   box-sizing: border-box;
   font-family: "Red Rose", cursive;
+}
+html {
+  font-size: 62.5%;
 }
 body {
   width: 100%;
   height: 100vh;
   margin: auto;
-  background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)) ,url(../assets/pexels-maxyne-barcel-10402282\ 1.png);
+  background-image:linear-gradient(rgba(57, 56, 56, 0.75),rgba(57, 56, 56, 0.75)) ,url(../assets/pexels-maxyne-barcel-10402282\ 1.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat; 
@@ -19,7 +21,7 @@ body {
 /* ---------- NAVBAR ------------ */
 .navbar {
  
-  padding : 35px 0;
+  padding : 3.5rem 0;
   margin: auto;
    width: 85%;
    display:flex;
@@ -31,37 +33,50 @@ body {
  list-style-type: none;
  display: inline-block;
  color: #F4BE2C;
- margin: 0 20px;
+ margin: 0 2rem;
+ font-size: 2rem;
  
 }
 .logo {
- padding-top: 20px;
+ padding-top: 2rem;
 }
 .button-small {
- padding: 8px 20px;
- margin-top:22px ;
+ padding: 0.8rem 2rem;
  background-color: #DE4839;
  color: #fff;
+ border: none;
 }
 .hero-heading {
   padding-left: 20%;
   padding-right: 20%;
-  padding-top: 20px;
+  padding-top: 2rem;
   height: 30%;
-  font-size: 80px;
+  font-size: 8rem;
   text-align: center;
   color: #F4BE2C;
 
 }
 .button-large {
- margin: 35px 550px;
- padding: 15px 30px;
+position: relative;
+left: 57rem ;
+top: 2rem;
+ padding: 1.5rem 3rem;
  background-color: #DE4839;
  border: none;
  color: #fff;
  font-weight: 400;
 } 
- .bottom img {
+.bottom img {
    float: right;
-   padding-right: 90px;
+   padding-right: 9rem;
  }
+@media(max-width:998px) {
+  html {
+      font-size: 55%;
+  }
+}
+@media(max-width:768px) {
+  html {
+      font-size: 45%;
+  }
+}
