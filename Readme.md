@@ -21,4 +21,9 @@
 
 [Live-Link](https://project2-htmlcss.netlify.app/)
 
+![Image](./2.png)
+
+![Thumbnail](./thumbnail.png)
+
+
 
